@@ -1,10 +1,9 @@
 //Between every two texts give a 4 sec gap
-
-$(window).load(function() {
-    $(".loader").fadeOut("slow");
+$(window).bind("load", function() {
+   $(".loader").fadeOut("slow");
 });
 
-$(document).ready(function(){
+$(window).ready(function(){
   $('html, body').animate({scrollTop: $("body").offset().top},1000);
 
   function type(id,string){
