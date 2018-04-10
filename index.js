@@ -4,10 +4,6 @@
 // });
 
 $(window).ready(function(){
-  $('html, body').animate({scrollTop: $("body").offset().top},1000);
-
-  $(".loader").fadeOut("slow");
-
 
   function type(id,string){
   			var i = 0;
@@ -214,4 +210,9 @@ setTimeout(function mainFunc() {
       },143000);
 
 },1000);
+$('html, body').animate({scrollTop: $("body").offset().top},1000);
+
+$(".loader").fadeOut("slow");
+
+
 });
