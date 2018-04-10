@@ -1,7 +1,7 @@
 //Between every two texts give a 4 sec gap
-$(window).bind("load", function() {
-   $(".loader").fadeOut("slow");
-});
+// $(window).bind("load", function() {
+//
+// });
 
 $(window).ready(function(){
   $('html, body').animate({scrollTop: $("body").offset().top},1000);
@@ -292,6 +292,7 @@ setTimeout(function mainFunc() {
       //    $('html, body').animate({scrollTop: $("#slide13").offset().top},1000);
       // },208000);
 },1000);
+$(".loader").fadeOut("slow");
 });
 
 
