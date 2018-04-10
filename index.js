@@ -6,6 +6,9 @@
 $(window).ready(function(){
   $('html, body').animate({scrollTop: $("body").offset().top},1000);
 
+  $(".loader").fadeOut("slow");
+
+
   function type(id,string){
   			var i = 0;
   			//var speed = 70;
@@ -175,7 +178,7 @@ setTimeout(function mainFunc() {
      },116000);
 
       setTimeout(function() {
-       newText("7","...and chocolates :).");
+       newText("7","...and chocolates :)");
      },122000);
 
       setTimeout(function(){
@@ -210,99 +213,5 @@ setTimeout(function mainFunc() {
         newText("9","#DOBO");
       },143000);
 
-     //  setTimeout(function() {
-     //    newText("9","Lorem Ipsum dorem Et it 6.");
-     //  },147000);
-     //
-     //  setTimeout(function() {
-     //   newText("9","Lorem Ipsum dorem Et it 7.");
-     // },151000);
-     //
-     //  setTimeout(function() {
-     //   newText("9","Lorem Ipsum dorem Et it 8.");
-     // },155000);
-     //
-     //  setTimeout(function(){
-     //     $('html, body').animate({scrollTop: $("#slide10").offset().top},1000);
-     //  },159000);
-     //
-     //
-     //
-     //  setTimeout(function(){
-     //    newText("10","Lorem Ipsum dorem Et it 5.");
-     //  },160000);
-     //
-     //  setTimeout(function() {
-     //    newText("10","Lorem Ipsum dorem Et it 6.");
-     //  },164000);
-     //
-     //  setTimeout(function() {
-     //   newText("10","Lorem Ipsum dorem Et it 7.");
-     // },168000);
-     //
-     //  setTimeout(function() {
-     //   newText("10","Lorem Ipsum dorem Et it 8.");
-     // },172000);
-     //
-     //  setTimeout(function(){
-     //     $('html, body').animate({scrollTop: $("#slide11").offset().top},1000);
-     //  },176000);
-     //
-     //
-     //
-     //  setTimeout(function(){
-     //    newText("11","Lorem Ipsum dorem Et it 5.");
-     //  },177000);
-     //
-     //  setTimeout(function() {
-     //    newText("11","Lorem Ipsum dorem Et it 6.");
-     //  },181000);
-     //
-     //  setTimeout(function() {
-     //   newText("11","Lorem Ipsum dorem Et it 7.");
-     // },185000);
-     //
-     //  setTimeout(function() {
-     //   newText("11","Lorem Ipsum dorem Et it 8.");
-     // },189000);
-     //
-     //  setTimeout(function(){
-     //     $('html, body').animate({scrollTop: $("#slide12").offset().top},1000);
-     //  },193000);
-     //
-     //
-     //
-     //  setTimeout(function(){
-     //    newText("12","Lorem Ipsum dorem Et it 5.");
-     //  },194000);
-     //
-     //  setTimeout(function() {
-     //    newText("12","Lorem Ipsum dorem Et it 6.");
-     //  },198000);
-     //
-     //  setTimeout(function() {
-     //   newText("12","Lorem Ipsum dorem Et it 7.");
-     // },202000);
-     //
-     //  setTimeout(function() {
-     //   newText("12","Lorem Ipsum dorem Et it 8.");
-     // },206000);
-
-      // setTimeout(function(){
-      //    $('html, body').animate({scrollTop: $("#slide13").offset().top},1000);
-      // },208000);
 },1000);
-$(".loader").fadeOut("slow");
 });
-
-
-
-
-//slide 2
-	//setTimeout(function() {
-      	//$('html, body').animate({scrollTop: $("#particles-js2").offset().top},600);
-	    	//type("#text3","you are probably wondering what this is");
-        // setTimeout(function() {
-        //   newText("slide1","text2","text3","Well then keep wondering.",2000);
-        // },4000);
-	//},4000);
