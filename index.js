@@ -3,7 +3,7 @@
 //
 // });
 
-$(window).ready(function(){
+$(window).bind("load", function() {
 
   function type(id,string){
   			var i = 0;
