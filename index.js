@@ -162,7 +162,7 @@ setTimeout(function mainFunc() {
 
 
       setTimeout(function(){
-        newText("7","Happy Brithday Anchal");
+        newText("7","Happy Birthday Anchal");
       },108000);
 
       setTimeout(function() {
